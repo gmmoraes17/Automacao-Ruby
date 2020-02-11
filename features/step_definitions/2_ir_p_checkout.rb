@@ -25,27 +25,7 @@ Quando("crio uma conta") do
 end
   
 Entao("confirmo meu endereco") do
-    binding.pry
     expect(@n.confirm_endereco.first.text).to eql 'Av Taruma'
     expect(@n.confirm_cidade.first.text).to include 'São Paulo'
-end
-  
-Dado("seleciono a opcao de entrega") do
-
-end
-  
-Quando("concordo com os termos") do
-
-end
-  
-Entao("checkout") do
-
-end
-  
-Quando("seleciono opcao de pagamento") do
-
-end
-  
-Entao("confirmo minha compra") do
-
+    @n.ir_p_checkout_3.click
 end

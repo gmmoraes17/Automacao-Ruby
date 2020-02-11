@@ -13,14 +13,3 @@ Cenario: fazer cadastro
 E prossigo para o checkout
 Quando crio uma conta
 Entao confirmo meu endereco
-
-@escolher_entrega
-Cenario: escolher entrega
-Dado seleciono a opcao de entrega
-Quando concordo com os termos
-Entao checkout
-
-@escolher_pagamento
-Cenario: escolher pagamento
-Quando seleciono opcao de pagamento
-Entao confirmo minha compra

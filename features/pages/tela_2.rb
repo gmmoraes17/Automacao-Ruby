@@ -22,4 +22,5 @@ class CriarConta<SitePrism::Page
     element :click_registrar, '#submitAccount'
     elements :confirm_endereco, ".address_address1.address_address2"
     elements :confirm_cidade, ".address_city.address_state_name.address_postcode"
+    element :ir_p_checkout_3, '.button.btn.btn-default.button-medium'
 end
