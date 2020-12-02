@@ -2,7 +2,7 @@
 
 # Login Page
 class CriarConta < SitePrism::Page
-  element :ir_p_checkout_2, '.button.btn.btn-default.standard-checkout.button-medium'
+  element :ir_p_checkout__, '.button.btn.btn-default.standard-checkout.button-medium'
   elements :campo_email, '.is_required.validate.account_input.form-control'
   element :click_criar, '#SubmitCreate'
   element :first_name, '#customer_firstname'
@@ -23,5 +23,5 @@ class CriarConta < SitePrism::Page
   element :click_registrar, '#submitAccount'
   elements :confirm_endereco, '.address_address1.address_address2'
   elements :confirm_cidade, '.address_city.address_state_name.address_postcode'
-  element :ir_p_checkout_3, '.button.btn.btn-default.button-medium'
+  element :ir_p_checkout___, '.button.btn.btn-default.button-medium'
 end

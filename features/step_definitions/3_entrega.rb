@@ -10,5 +10,5 @@ end
 
 Entao('checkout') do
   expect(@e.preco.first.text).to include '$2.00'
-  @e.checkout_2.click
+  @e.checkout__.click
 end

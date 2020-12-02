@@ -12,5 +12,5 @@ end
 Entao('vou para o checkout') do
   @t.add_cart.first.click
   expect(@t.produto_adicionado.text).to eql 'Product successfully added to your shopping cart'
-  @t.ir_p_checkout_1.click
+  @t.ir_p_checkout_.click
 end

@@ -2,7 +2,7 @@
 
 Dado('prossigo para o checkout') do
   @n = CriarConta.new
-  @n.ir_p_checkout_2.click
+  @n.ir_p_checkout__.click
 end
 
 Quando('crio uma conta') do
@@ -29,5 +29,5 @@ end
 Entao('confirmo meu endereco') do
   expect(@n.confirm_endereco.first.text).to eql 'Av Taruma'
   expect(@n.confirm_cidade.first.text).to include 'São Paulo'
-  @n.ir_p_checkout_3.click
+  @n.ir_p_checkout___.click
 end
